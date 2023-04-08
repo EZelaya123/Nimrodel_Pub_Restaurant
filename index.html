@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="Assets/img/n.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- kit.fontawesome -->
+    <script src="https://kit.fontawesome.com/b770a8f1b7.js" crossorigin="anonymous"></script>
+    <!-- elimina error en consola favicon not found -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Nimrodel Pub Restaurant”</title>
+</head>
+
+<body>
+    <!-- Ventana de Navegación Principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/assets/img/n.png" alt=""></a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#desplegar">
+                <span class="navbar-toggler-icon img-dark"></span>
+            </button>
+
+            <div id="desplegar" class="collapse navbar-collapse">
+                <ul class="navbar-nav  flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Nuestros productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" id="openC">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Comuniquemonos"
+                            onclick="Comuniquemonos()">Comuniquemonos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#Reserva" onclick="Reserva()">Reserva</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Ventana de Navegación Principal -->
+
+    <!-- Titulo Principal -->
+    <header class="tituloPrincipal">
+        <h2>Nimrodel Pub Restaurant</h2>
+    </header>
+    <!-- Titulo Principal -->
+
+    <main>
+        <!-- Titulo Secundario -->
+        <section>
+            <h4 id="Destacadosdelasemana">Destacados de la semana</h4>
+        </section>
+        <!-- Titulo Secundario -->
+        <br>
+        <!-- Tarjetas -->
+        <section class="Cards text-center">
+            <div class="container">
+                <!-- Tarjeta 1 -->
+                <div class="card  border-light me-3" style="width: 25rem;" class="modal" tabindex="-1">
+                    <a href="#" class="img" id="open">
+                        <img id="img1" src="Assets/img/bebidas.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body border-color-white">
+                        <h5 class="card-title">GASEOSAS</h5>
+                        <p class="card-text">Lorem ipsum,andae optio ea explicabo non voluptatum eaque.</p>
+
+                    </div>
+                </div>
+                <!-- Tarjeta 1 -->
+                <!-- Tarjeta 2 -->
+                <div class="card border-light   me-3 " style="width: 25rem;">
+                    <a href="#" class="img" id="open2">
+                        <img id="img2" src="Assets/img/tablas.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">TABLAS</h5>
+                        <p class="card-text">Lorem ipsum,andae optio ea explicabo non voluptatum eaque.</p>
+
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <!-- Tarjeta 3 -->
+                <div class="card  border-light " style="width: 25rem; ">
+                    <a href="#" class="img1" id="open3">
+                        <img id="img3" src="Assets/img/shop.jpeg" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">SHOP CERVEZA</h5>
+                        <p class="card-text">Lorem ipsum,andae optio ea explicabo non voluptatum eaque.</p>
+
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+            </div>
+        </section>
+        <!-- Tarjetas -->
+
+        <!-- Ventanas Pop up aplicadas a tarjetas -->
+        <!-- Pop up Tarjeta 1 -->
+        <div id="popup" style="display: none;">
+            <div class="content-popup">
+                <div class="close"><a href="#" id="close"><img id="cerrar" src="Assets/img/cerrar1.png" /></a>
+                </div>
+                <div>
+                    <h1 id="title">GASEOSAS</h1>
+
+                    <p id="text">Lorem Ipsum es simplemente el texto de relleno de archivos de texto. Lorem
+                        Ipsum non voluptatum eaque.</p>
+                    <img id="img4" src="Assets/img/bebidas1.jpg">
+                    <div style="float:left; width:100%;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pop up Tarjeta 1 -->
+        <!-- Pop up Tarjeta 2 -->
+        <div id="popup2" style="display: none;">
+            <div class="content-popup">
+                <div class="close"><a href="#" id="close2"><img id="cerrar" src="Assets/img/cerrar1.png" /></a>
+                </div>
+                <div>
+                    <h1 id="title">TABLAS</h1>
+
+                    <p id="text">Lorem Ipsum es simplemente el texto de relleno de archivos de texto. Lorem
+                        Ipsum non voluptatum eaque.</p>
+                    <img id="img4" src="Assets/img/tablas2.jpg">
+                    <div style="float:left; width:100%;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pop up Tarjeta 2 -->
+        <!-- Pop up Tarjeta 3 -->
+        <div id="popup3" style="display: none;">
+            <div class="content-popup">
+                <div class="close"><a href="#" id="close3"><img id="cerrar" src="Assets/img/cerrar1.png" /></a>
+                </div>
+                <div>
+                    <h1 id="title">SHOP CERVEZA</h1>
+
+                    <p id="text">Lorem Ipsum es simplemente el texto de relleno de archivos de texto. Lorem
+                        Ipsum non voluptatum eaque.</p>
+                    <img id="img4" src="Assets/img/shop3.jpeg">
+                    <div style="float:left; width:100%;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pop up Tarjeta 3 -->
+        <!-- Ventanas Pop up aplicadas a tarjetas -->
+        <br>
+        
+                <br>
+                <!-- Formularios -->
+                <!-- Formulario 1 -->
+                <section id="formulario1" class="d-md-block d-sm-none">
+                    <div class="container">
+                        <form class="row" action="Comuniquemonos.html" target="blank" method="get">
+
+                            <div id="Comuniquemonos">
+                                <p>
+                                <h1>Comuniquemonos </h1>
+                                </p>
+                                <div class="col-12">
+                                    <label for="Nombre" class="form-label">Nombre</label>
+                                    <input class="form-control" required pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$"
+                                        type="text" id="nombre">
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="correo" class="form-label">Correo</label>
+                                <input class="form-control" type="email" required
+                                    pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]+$" id="correo" multiple>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="telefono" class="form-label">Telefono</label>
+                                <input class="form-control" type="number" required min="0" pattern="\d+" id="telefono">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="motivo" class="form-label ">Motivo</label>
+                                <input class="form-control" id="motivo" type="text" required>
+                            </div>
+                            <div class="col-10 mb-3 mx-auto ">
+                                <label for="sugerencia" class="form-label"></label>
+                                <textarea class="form-control " id="sugerencia" rows="8"></textarea>
+                            </div>
+
+                            <div class="col-12 ">
+                                <button id="boton1" type="submit" class="btn btn-primary mb-3">Enviar</button>
+                            </div>
+                            <br>
+
+                        </form>
+                    </div>
+                </section>
+                <!-- Formulario 1 -->
+                <!-- Formulario 2 -->
+                <section id="formulario2" class="d-md-block d-sm-none">
+                    <div class="container">
+                        <form class="row" action="Reservar.html" target="blank" method="get">
+                            <div id="Reserva">
+                                <p>
+                                <h1>Reserva</h1>
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input class="form-control" required pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$" type="text"
+                                    id="nombre2">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="correo" class="form-label">Correo</label>
+                                <input class="form-control" type="email" required
+                                    pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]+$" id="correo2" multiple>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="telefono" class="form-label">Telefono</label>
+                                <input class="form-control" type="number" required min="0" pattern="\d+" id="telefono2">
+                            </div>
+
+                            <div>
+                                <label for="fecha" class="form-label ">Fecha</label>
+                                <input class="form-control" id="fecha" type="date" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="telefono" class="form-label">Hora</label>
+                                <input class="form-control" type="time" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="cantidad_de_asistentes" class="form-label">Cantidad de asistentes</label>
+                                <input class="form-control" type="number" required min="1" id="cantidad_de_asistentes">
+                            </div>
+                            <div class="col-12">
+                                <button id="boton2" type="submit" class="btn btn-primary mb-3">Reservar</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <!-- Formulario 2 -->
+                <!-- Formularios -->
+
+                <!-- Galeria en Carousel -->
+                <div class="container text-center mt-5 ">
+                    <div id="carouselExample" class=" carousel slide">
+                        <div class="imagen carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Assets/img/vino.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/img/mojito.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/img/chorillana.jpg" class="d-block mx-auto w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- Galeria en Carousel -->
+
+                <!-- Ventana Pop up aplicada a texto "Sobre Nosotros" -->
+
+                <div id="popupC" style="display: none;">
+                    <div class="content-popup">
+                        <div class="closec">
+                            <a href="#" id="closec">
+                                <img id="cerrarC" src="Assets/img/CLOSEz.jpg" >
+                            </a>
+                        </div>
+            
+                        <div class="carrousel">
+                            <div class="conteCarrousel">
+                                <div class="itemCarrousel" id="itemCarrousel-1">
+                                    <div>
+                                        <h3 id="titleC">Nimrodel Pub Restaurant”</h3>
+                                        <p>
+                                        <h5 id="textC1">
+                                            “Nimrodel Significa “dama de la cueva blanca”. Fue una <br>elfa silvana que vivió
+                                            durante la Tercera Edad del Sol en el<br> bosque de Lothlórien.
+                                            En honor a su nombre,
+                                            se acuña<br> Nimrodel al río que nace en las Montañas Nubladas”.
+                                        </h5>
+                                        </p>
+                                        <img id="imgC1" src="Assets/img/IMG2.jpg">
+                                        <div style="float:left; width:100%;">
+            
+                                        </div>
+                                    </div>
+            
+                                    <div class="itemCarrouselArrows">
+                                        <a href="#itemCarrousel-2">
+                                            <i class="fa-sharp fa-solid fa-angle-left fa-2xl"></i>
+                                        </a>
+                                        <a href="#itemCarrousel-2">
+                                            <i class="fa-sharp fa-solid fa-angle-right fa-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="itemCarrousel" id="itemCarrousel-2">
+                                    <h3 id="titleC">Nimrodel Pub Restaurant”</h3>
+                                    <p>
+                                    <h5 id="textC2">“Es un oasis de calma y diversión, lleno de rincones acogedores en donde se
+                                        resalta la belleza de su decoración élfica.<br>
+                                        Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar
+                                        el día después del trabajo<br> o almorzar con tu familia.
+                                        Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han<br>
+                                        otorgado reconocimiento dentro de la cultura gastronómica.
+                                        También puedes disfrutar<br> nuestras cervezas de fabricación propia, con sabores que te
+                                        llevarán a un mágico mundo”.</h5>
+                                    </p>
+                                    <img id="imgC2" src="Assets/img/IMG1.jpg">
+                                    <div class="itemCarrouselArrows">
+                                        <a href="#itemCarrousel-1">
+                                            <i class="fa-sharp fa-solid fa-angle-left fa-2xl"></i>
+                                        </a>
+                                        <a href="#itemCarrousel-1">
+                                            <i class="fa-sharp fa-solid fa-angle-right fa-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+            
+                            </div>
+            
+                        </div>
+                <!-- Ventana Pop up aplicada a texto "Sobre Nosotros" -->
+
+    </main>
+
+
+    <!-- Ventana de navegacion de final de pagina -->
+    <footer id="piePagina">
+        <div class="container">
+            <div class="row col-12 ">
+                <img>
+                <p id="marcaregistrada" class="align-middle text-white">Todos los derechos reservados
+                    <img src="Assets/img/R.ico" alt="Marca registrada" width="25" height="25">
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Ventana de navegacion de final de pagina -->
+
+    <!-- js -->
+    <script src="Assets/JS/script.js"></script>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
