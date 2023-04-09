@@ -1,7 +1,7 @@
 # Nimrodel_Pub_Restaurant
 
 <p align="center">
-  <img src="img4.jpg" width="100%" align="right">
+  <img src="img4.jpg" width="50%" align="right">
 </p>
 ## Introducción con GIF o Imágenes
 
