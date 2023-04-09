@@ -1,27 +1,19 @@
 <br>
 # Nimrodel_Pub_Restaurant
-<br>
+<br><br>
 <p align="center">
   <img src="Img4.jpg" width="100%" align="right">
 </p>
 <br><br><br><br>
 
 <samp>
+<br><br>
 “Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en donde se resalta la belleza de su decoración élfica.
 Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar con tu familia.
 Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han otorgado reconocimiento dentro de la cultura gastronómica.
 También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te llevarán a un mágico mundo.”
   </samp>
-## Sobre el Proyecto
 
-Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
-
-*"Lifebank es un dapp basado en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valor entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).*
-
-*Lifebank es una iniciativa de EOS Costa Rica, una empresa que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Coding para el cambio organizado por la empresa líder de blockchain, Block.one ".*
-
-## Tabla de Contenidos
-Con una buena visión de la estructura de la información se puede hacer que el lector acceda a la información específica necesaria, por lo que luego dar una buena visión de la información con una Tabla de Contenidos facilitará este proceso. Por ejemplo:
 
 **Tabla de Contenidos**
 1. Introducción con GIF o imágenes
