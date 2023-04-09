@@ -8,11 +8,11 @@
 .navbar {
     background: url("../img/fondo.jpg"); 
     background-repeat: repeat;
-    background-size: 222px;
+    background-size: 422px;
 }
 
 .navbar img {
-    width: 3%;
+    width: 8%;
 }
 
 /* Estilo aplicado a Titulo principal */
