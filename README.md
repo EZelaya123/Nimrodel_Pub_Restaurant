@@ -1,16 +1,17 @@
-<br><br>
+<br>
 # Nimrodel_Pub_Restaurant
-<br><br>
+<br>
 <p align="center">
   <img src="Img4.jpg" width="100%" align="right">
 </p>
-<br><br>
-## Introducción con GIF o Imágenes
+<br><br><br><br>
 
-Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
-
-![Captura de pantalla de Life bank](/img/life-bank.webp)
-
+<samp>
+“Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en donde se resalta la belleza de su decoración élfica.
+Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar con tu familia.
+Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han otorgado reconocimiento dentro de la cultura gastronómica.
+También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te llevarán a un mágico mundo.”
+  </samp>
 ## Sobre el Proyecto
 
 Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
