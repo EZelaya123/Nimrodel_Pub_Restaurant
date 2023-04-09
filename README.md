@@ -1,7 +1,7 @@
 # Nimrodel_Pub_Restaurant
 
 <p align="center">
-  <img src="img1.jpg" width="100%" align="right">
+  <img src="img4.jpg" width="100%" align="right">
 </p>
 ## Introducción con GIF o Imágenes
 
@@ -58,101 +58,14 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 
 [jungle.evodex.io](https://jungle.evodex.io/) se ejecuta en Jungle 3 TestNet y se crea a partir de la rama de desarrollo utilizada para el desarrollo, la integración y la prueba de nuevas funciones.
 
-### Inicio Rápido
 
-- Clona este repositorio usando `git clone https://github.com/YOUR_PROJECT_NAME.git`
-- Moverse al directorio apropiado: `cd <YOUR_PROJECT_NAME>`
-- Corre `yarn` para instalar dependencias. En este punto puedes correr `yarn start` para ver la aplicación de ejemplo en http://localhost:3000
 
-### Empezando
-Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
 
-#### **Pre-Requisitos**
-
-`
-yarn
-`
-
-#### **Instalación**
-
-1. Clonar el repositorio
-
-    `
-    git clone https://github.com/your_username_/Project-Name.git
-    `
-2. Instalar paquetes de yarn
-
-    `
-    yarn install
-    `
-
-    ó solo
-
-    `
-    yarn
-    `
-3. Corre el proyecto
-    
-    `
-    yarn start
-    `
-
-## Estructura de Archivo
-Esto podría ayudar al lector a comprender la organización dentro del proyecto, por ejemplo:
-
-```text title="modificar"
-/
-├── public
-│   ├── index.html
-│   └── manifest.json
-├──  src
-│   ├── api
-│   ├── components
-│   ├── config
-│   ├── containers
-│   ├── models
-│   ├── routes
-│   ├── theme
-│   ├── utils
-│   ├── App.js
-│   ├── index.js
-│   └── store.js
-├── .dockerignore
-├── .gitignore
-├── .env.example
-├── .eslintrc
-├── .prettierrc
-├── Dockerfile
-├── LICENSE
-├── README.md
-├── docker-compose.yml
-├── nginx.conf
-└── package.json
-    
     ## Contribuyendo
 
-    Si desea hacer una contribución, siga los siguientes pasos:
-
-    1. Crear Fork del proyecto
-    2. Crea el Feature Branch (`git checkout -b feature/AmazingFeature`)
-    3. Commit a los cambios (`git commit -m '<type>(<scope>): <subject>'`)
-    4. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
-    5. Abra un Pull Request
-
-    Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
+   
 
     Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
 
-    ## Colaboradores
+   
 
-    Liste las personas que trabajan en el proyecto.
-
-    ## Sobre EOS Costa Rica
-
-    <div style={{ display: "block", textAlign: "center" }}>
-        <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
-    </div>
-
-    EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
-
-    [eoscostarica.io](https://eoscostarica.io/)
