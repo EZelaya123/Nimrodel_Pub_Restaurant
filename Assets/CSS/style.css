@@ -6,7 +6,11 @@
 
 /* Estilo aplicado a ventana de navegación principal */
 .navbar {
+<<<<<<< HEAD
     background: url("/Assets/img/fondo.jpg");
+=======
+    background: url("../Assets/img/fondo.jpg");
+>>>>>>> 8513979a9c47dcb698ede005f5ad0dfbd5872278
     background-repeat: repeat;
     background-size: 422px;
 }
