@@ -34,7 +34,7 @@ Describe la razón por la que se hizo esto, por ejemplo:
 
 ## Contribuyendo   
 
-Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
+Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<https://ezelaya123.github.io/Nimrodel_Pub_Restaurant/>`
 
    
 
