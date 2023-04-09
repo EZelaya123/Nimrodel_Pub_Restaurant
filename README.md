@@ -18,11 +18,10 @@ También puedes disfrutar nuestras cervezas de fabricación propia, con sabores 
 
 ## Propósito del Proyecto
 
-Describe la razón por la que se hizo esto, por ejemplo:
-
-*"Identificamos dos problemas principales: una escasez de donaciones de sangre y una desaceleración económica local. En medio del brote de COVID-19, los bancos de sangre necesitan donantes con urgencia. Las personas que son donantes potenciales calificados deben quedarse en casa y aislarse. A medida que las donaciones caen en picado y la demanda para los aumentos de sangre y plasma, los bancos de sangre están experimentando una escasez global pronunciada.*
-
-*Además, la pandemia está afectando las economías locales debido a un bloqueo generalizado. Las pequeñas empresas que dependen de la comunidad local deben pensar en formas de incentivar a los clientes a comprar tan pronto como se levanten las restricciones ".*
+*Se creo esta pagina web:
+1. Con el objetivo de presentar una pagina web para hacer publicidad al Restaurante, lo cual es una forma de promocionar este tipo de negocio, el cual es muy rentable y que mejor que hacerlo conocer en linea. 
+<br>
+2.- Con el objetivo de poner en practica algunas tecnologias para el desarrollo de paginas web".
 
 ## Tecnologías
 
