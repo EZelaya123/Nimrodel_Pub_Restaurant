@@ -1,8 +1,9 @@
 # Nimrodel_Pub_Restaurant
 
 <p align="center">
-  <img src="img4.jpg" width="50%" align="right">
+  <img src="Img4.jpg" width="100%" align="right">
 </p>
+<br><br>
 ## Introducción con GIF o Imágenes
 
 Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
